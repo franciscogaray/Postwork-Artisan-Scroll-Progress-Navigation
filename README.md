@@ -33,4 +33,4 @@ The progress ring calculates the current scroll position using a calculation of 
 
 ---
 **Client:** Heritage Oakwood Journals
-**Deliverable:** 1.0.0 Stable
+**Deliverable:** 1.1 Stable
