@@ -1,0 +1,41 @@
+#artisan-scroll-top {
+    position: fixed;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 9999;
+    transition: opacity 0.4s ease, visibility 0.4s ease; /* Fade-in/out transition  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artisan-right { right: 30px; }
+.artisan-left { left: 30px; }
+
+.artisan-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.progress-ring__circle {
+    transition: stroke-dashoffset 0.1s linear;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.artisan-icon-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive adjustment for mobile ecommerce  */
+@media (max-width: 768px) {
+    #artisan-scroll-top {
+        bottom: 90px; 
+        transform: scale(0.9);
+    }
+}
